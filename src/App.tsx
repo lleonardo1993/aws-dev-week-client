@@ -22,7 +22,7 @@ const App = () => {
 
   const onSocketClose = useCallback(() => {
     setMembers([]);
-    setIsConnected(false);
+    setIsConnected(false); 
     setChatRows([]);
   }, []);
 
